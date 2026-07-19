@@ -22,7 +22,9 @@ Acest proiect este publicat exclusiv în scop educațional și de portofoliu, pe
 
 ## Configurare
 
-Implementarea a fost dezvoltată într-un mediu local Python utilizând Visual Studio Code și un mediu virtual (`.venv`). Antrenarea modelelor de învățare profundă a fost realizată cu accelerare GPU prin CUDA.
+Proiectul poate fi rulat în Visual Studio Code sau într-un mediu cloud echivalent (de exemplu, Google Colab). Pentru utilizarea în Visual Studio Code este recomandată crearea unui mediu virtual Python (.venv) și instalarea pachetului ipykernel, necesar pentru executarea fișierelor de tip Jupyter Notebook (.ipynb).
+
+În cazul antrenării modelelor de inteligență artificială, utilizarea unei plăci grafice compatibile CUDA este recomandată pentru reducerea semnificativă a timpului de execuție.
 
 Din cauza dependențelor hardware și software specifice (versiuni CUDA, drivere NVIDIA și biblioteci compatibile), pașii necesari pentru reproducerea completă a mediului de dezvoltare nu sunt incluși în acest repository. Codul sursă este pus la dispoziție în principal pentru studiu și analiză.
 

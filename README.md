@@ -30,7 +30,7 @@ Din cauza dependențelor hardware și software specifice (versiuni CUDA, drivere
 
 ## Dependențe principale
 
-- Python 3.x
+- Python 3.12
 - PyTorch
 - torchvision
 - scikit-learn
